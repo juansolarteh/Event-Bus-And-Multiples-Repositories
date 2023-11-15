@@ -2,7 +2,7 @@ package com.example.demo.employee.application;
 
 import com.example.demo.employee.domain.Employee;
 import com.example.demo.employee.domain.EmployeeRepository;
-import com.example.demo.eventBus.application.EmployeeRecordedEvent;
+import com.example.demo.eventBus.domain.events.EmployeeRecordedEvent;
 import com.example.demo.eventBus.domain.EventBus;
 import jakarta.transaction.Transactional;
 

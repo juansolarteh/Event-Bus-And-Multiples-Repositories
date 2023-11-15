@@ -1,7 +1,7 @@
 package com.example.demo.jobPosition.application;
 
 import com.example.demo.commons.domain.NotFoundException;
-import com.example.demo.eventBus.application.EmployeeRecordedEvent;
+import com.example.demo.eventBus.domain.events.EmployeeRecordedEvent;
 import com.example.demo.eventBus.domain.EventBus;
 import com.example.demo.eventBus.domain.EventListener;
 import com.example.demo.eventBus.domain.exceptions.MissingTypeArgumentException;

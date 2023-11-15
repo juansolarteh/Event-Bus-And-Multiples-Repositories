@@ -1,4 +1,4 @@
-package com.example.demo.eventBus.application;
+package com.example.demo.eventBus.domain.events;
 
 import com.example.demo.eventBus.domain.Event;
 import lombok.Getter;
