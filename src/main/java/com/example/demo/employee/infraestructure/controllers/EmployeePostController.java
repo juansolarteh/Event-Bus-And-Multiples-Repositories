@@ -1,10 +1,7 @@
 package com.example.demo.employee.infraestructure.controllers;
 
 import com.example.demo.employee.application.EmployeeRecorder;
-import com.example.demo.employee.domain.EmployeeRepository;
-import com.example.demo.employee.infraestructure.EmployeeOtherTypeRepository;
 import com.example.demo.employee.infraestructure.dto.EmployeeDTO;
-import com.example.demo.eventBus.domain.EventBus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;

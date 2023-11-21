@@ -1,6 +1,6 @@
-package com.example.demo.eventBus.domain.events;
+package com.example.demo.commons.eventBus.domain.events;
 
-import com.example.demo.eventBus.domain.Event;
+import com.example.demo.commons.eventBus.domain.Event;
 import lombok.Getter;
 
 @Getter

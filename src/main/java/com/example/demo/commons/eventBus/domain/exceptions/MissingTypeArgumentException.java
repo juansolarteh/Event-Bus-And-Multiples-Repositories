@@ -1,4 +1,4 @@
-package com.example.demo.eventBus.domain.exceptions;
+package com.example.demo.commons.eventBus.domain.exceptions;
 
 public class MissingTypeArgumentException extends Exception{
     public MissingTypeArgumentException(){
