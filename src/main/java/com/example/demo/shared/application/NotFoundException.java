@@ -1,4 +1,4 @@
-package com.example.demo.commons.domain;
+package com.example.demo.shared.application;
 
 public class NotFoundException extends RuntimeException{
     public NotFoundException(String message){

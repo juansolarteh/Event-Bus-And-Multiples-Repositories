@@ -1,8 +1,8 @@
 package com.example.demo.employee.infraestructure.controllers;
 
-import com.example.demo.commons.eventBus.domain.EventPublisher;
 import com.example.demo.employee.application.EmployeeRecorder;
 import com.example.demo.employee.domain.EmployeeRepository;
+import com.example.demo.shared.domain.eventBus.EventPublisher;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 

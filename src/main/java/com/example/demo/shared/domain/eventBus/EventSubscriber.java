@@ -1,6 +1,6 @@
-package com.example.demo.commons.eventBus.domain;
+package com.example.demo.shared.domain.eventBus;
 
-import com.example.demo.commons.eventBus.domain.exceptions.MissingTypeArgumentException;
+import com.example.demo.shared.domain.eventBus.exceptions.MissingTypeArgumentException;
 
 public abstract class EventSubscriber<T extends Event> {
     public EventSubscriber(EventSubscriberRegister eventSubscriberRegister) throws MissingTypeArgumentException {

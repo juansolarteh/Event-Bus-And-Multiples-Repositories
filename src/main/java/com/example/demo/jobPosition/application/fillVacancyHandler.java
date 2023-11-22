@@ -1,10 +1,10 @@
 package com.example.demo.jobPosition.application;
 
-import com.example.demo.commons.domain.NotFoundException;
-import com.example.demo.commons.eventBus.domain.EventSubscriberRegister;
-import com.example.demo.commons.eventBus.domain.events.EmployeeRecordedEvent;
-import com.example.demo.commons.eventBus.domain.EventSubscriber;
-import com.example.demo.commons.eventBus.domain.exceptions.MissingTypeArgumentException;
+import com.example.demo.shared.application.NotFoundException;
+import com.example.demo.shared.domain.eventBus.EventSubscriberRegister;
+import com.example.demo.shared.domain.employee.EmployeeRecordedEvent;
+import com.example.demo.shared.domain.eventBus.EventSubscriber;
+import com.example.demo.shared.domain.eventBus.exceptions.MissingTypeArgumentException;
 import com.example.demo.jobPosition.domain.JobPosition;
 import com.example.demo.jobPosition.domain.JobPositionRepository;
 import org.springframework.beans.factory.annotation.Autowired;

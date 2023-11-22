@@ -1,6 +1,5 @@
 package com.example.demo.jobPosition.infraestructure;
 
-import com.example.demo.commons.domain.NotFoundException;
 import com.example.demo.jobPosition.domain.JobPosition;
 import com.example.demo.jobPosition.domain.JobPositionRepository;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
-package com.example.demo.commons.infraestructure;
+package com.example.demo.shared.infraestructure;
 
-import com.example.demo.commons.domain.NotFoundException;
+import com.example.demo.shared.application.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

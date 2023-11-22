@@ -1,7 +1,10 @@
-package com.example.demo.commons.eventBus.infraestructure;
+package com.example.demo.shared.infraestructure.eventBus;
 
-import com.example.demo.commons.eventBus.domain.*;
-import com.example.demo.commons.eventBus.domain.exceptions.MissingTypeArgumentException;
+import com.example.demo.shared.domain.eventBus.Event;
+import com.example.demo.shared.domain.eventBus.EventPublisher;
+import com.example.demo.shared.domain.eventBus.EventSubscriber;
+import com.example.demo.shared.domain.eventBus.EventSubscriberRegister;
+import com.example.demo.shared.domain.eventBus.exceptions.MissingTypeArgumentException;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.ParameterizedType;

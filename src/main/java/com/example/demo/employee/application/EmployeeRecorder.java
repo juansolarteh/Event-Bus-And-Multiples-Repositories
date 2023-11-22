@@ -1,9 +1,9 @@
 package com.example.demo.employee.application;
 
-import com.example.demo.commons.eventBus.domain.EventPublisher;
+import com.example.demo.shared.domain.eventBus.EventPublisher;
 import com.example.demo.employee.domain.Employee;
 import com.example.demo.employee.domain.EmployeeRepository;
-import com.example.demo.commons.eventBus.domain.events.EmployeeRecordedEvent;
+import com.example.demo.shared.domain.employee.EmployeeRecordedEvent;
 import jakarta.transaction.Transactional;
 
 public class EmployeeRecorder {
